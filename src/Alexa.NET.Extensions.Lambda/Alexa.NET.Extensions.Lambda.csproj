@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Luca Montanari</Authors>
+    <Description>A collection of utilities made for Alexa Skills SDK for .NET (https://github.com/timheuer/alexa-skills-dotnet).
+
+This package contains utilities to easily create .NET Core AWS Lambda projects with Alexa Skills integration.</Description>
+    <Copyright>Copyright (c) 2018 Luca Montanari</Copyright>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <PackageLicenseUrl>https://github.com/thunderluca/Alexa.NET.Extensions.Lambda/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/thunderluca/Alexa.NET.Extensions.Lambda</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thunderluca/Alexa.NET.Extensions.Lambda</RepositoryUrl>
+    <PackageTags>amazon;alexa;echo;dot;skills;extensions;lambda;aws;netcore</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
